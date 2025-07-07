@@ -1,0 +1,25 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Cypress Demo Web Shop Project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:e2e": "cypress run --spec 'cypress/e2e/**/*.cy.js'"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "Rakesh",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-junit-reporter": "^1.3.1",
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
